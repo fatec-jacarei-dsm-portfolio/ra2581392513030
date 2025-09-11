@@ -1,6 +1,6 @@
 
 # Portfólio de Projetos - Fatec Jacareí #
-### Aluno: [Pedro Enrique de JEsus Freitas]
+### Aluno: [Pedro Enrique de Jesus Freitas]
 ### Curso: Desenvolvimento de Software Multiplataforma 
 ### Turma 1º Semestre de 2025
 
