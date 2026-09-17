@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Pedro Enrique de Jesus Freitas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-conteudo">
+      <h1>Pedro Enrique de Jesus Freitas</h1>
+      <p class="subtitulo">Desenvolvimento de Software Multiplataforma &middot; Fatec Jacareí</p>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#academicos">Projetos</a></li>
+          <li><a href="#outras">Outras informações</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ====================== SOBRE MIM ====================== -->
+    <section id="sobre" class="card-secao">
+      <img src="./foto.jpg" alt="Foto de Pedro Enrique" class="foto-perfil">
+      <h2>Sobre Mim</h2>
+      <p class="texto-sobre">
+        Estudante de <b>Desenvolvimento de Software Multiplataforma</b> na Fatec Jacareí,
+        interessado em desenvolvimento de aplicações web, aplicativos e banco de dados.
+        Atualmente aprofundando meus conhecimentos em
+        <b>JavaScript, TypeScript, Node.js e PostgreSQL</b>.
+      </p>
+    </section>
+
+    <!-- ====================== PROJETOS ACADÊMICOS ====================== -->
+    <section id="academicos" class="secao-projetos">
+      <h2 class="titulo-claro">Projetos Acadêmicos</h2>
+      <p class="subtitulo-secao">
+        Projetos desenvolvidos em equipe durante o curso, no formato ABP
+        (Aprendizagem Baseada em Projetos).
+      </p>
+
+      <div class="projetos-container">
+
+        <!-- ---------- ABP 1 DSM ---------- -->
+        <article class="projeto">
+          <span class="tag-semestre">1º Semestre</span>
+          <h3>Projeto ABP &ndash; 1º DSM</h3>
+          <p class="resumo">
+            Aplicação web para consulta de horários, professores e salas da Fatec Jacareí.
+          </p>
+
+          <h4>Descrição</h4>
+          <p>
+            Sistema desenvolvido em equipe para centralizar a consulta da grade de horários da
+            instituição, substituindo planilhas e avisos dispersos por uma interface web única,
+            com dados de disciplinas, docentes e salas.
+          </p>
+
+          <h4>Minha contribuição</h4>
+          <ul class="contribuicoes">
+            <li>Prototipação das telas no Figma, definindo layout e fluxo de navegação.</li>
+            <li>Desenvolvimento do front-end em HTML e CSS a partir do protótipo.</li>
+            <li>Implementação de funcionalidades em JavaScript (filtros e exibição dos horários).</li>
+            <li>Participação na modelagem do sistema com Astah.</li>
+          </ul>
+
+          <h4>Tecnologias</h4>
+          <div class="tech">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">Figma</span>
+            <span class="badge">Astah</span>
+            <span class="badge">PostgreSQL</span>
+            <span class="badge">pgAdmin</span>
+          </div>
+
+          <a class="link-projeto" href="https://github.com/techcastlefatec/horarios-fatec" target="_blank" rel="noopener">Ver projeto no GitHub</a>
+        </article>
+
+        <!-- ---------- ABP 2 DSM ---------- -->
+        <article class="projeto">
+          <span class="tag-semestre">2º Semestre</span>
+          <h3>Projeto ABP &ndash; 2º DSM</h3>
+          <p class="resumo">
+            Plataforma web para visualizar, comparar e extrair dados limnológicos.
+          </p>
+
+          <h4>Descrição</h4>
+          <p>
+            Projeto construído sobre uma base de dados fornecida pelo INPE, permitindo a
+            visualização e comparação de dados limnológicos de corpos d'água, além da
+            exportação das informações para análise posterior.
+          </p>
+
+          <h4>Minha contribuição</h4>
+          <ul class="contribuicoes">
+            <li>Desenvolvimento de componentes da interface em React com TypeScript.</li>
+            <li>Integração do front-end com os dados vindos do back-end.</li>
+            <li>Criação do protótipo de telas no Figma junto com a equipe.</li>
+            <li>Apoio na modelagem do sistema (Astah / StarUML).</li>
+          </ul>
+
+          <h4>Tecnologias</h4>
+          <div class="tech">
+            <span class="badge">TypeScript</span>
+            <span class="badge">React</span>
+            <span class="badge">Node.js</span>
+            <span class="badge">Figma</span>
+            <span class="badge">Astah</span>
+            <span class="badge">StarUML</span>
+          </div>
+
+          <a class="link-projeto" href="https://github.com/Helloworld-fatec/abp-dados-limnologicos" target="_blank" rel="noopener">Ver projeto no GitHub</a>
+        </article>
+
+        <!-- ---------- ABP 3 DSM ---------- -->
+        <article class="projeto">
+          <span class="tag-semestre">3º Semestre</span>
+          <h3>Projeto ABP &ndash; 3º DSM</h3>
+          <p class="resumo">
+            Aplicação com foco em integração de dados via API e consultas em banco relacional.
+          </p>
+
+          <h4>Descrição</h4>
+          <p>
+            Projeto desenvolvido em equipe com ênfase em back-end: construção da lógica de API
+            responsável por tratar, validar e entregar os dados consumidos pela aplicação,
+            apoiada em consultas SQL sobre um banco de dados relacional.
+          </p>
+
+          <h4>Minha contribuição</h4>
+          <ul class="contribuicoes">
+            <li>Desenvolvimento da lógica de API em TypeScript (rotas, tratamento de requisições e respostas).</li>
+            <li>Escrita e otimização de consultas SQL para alimentar os endpoints.</li>
+            <li>Validação de dados e tratamento de erros na comunicação entre front-end e back-end.</li>
+            <li>Testes das integrações para garantir a consistência dos retornos.</li>
+          </ul>
+
+          <h4>Tecnologias</h4>
+          <div class="tech">
+            <span class="badge">TypeScript</span>
+            <span class="badge">SQL</span>
+            <span class="badge">API REST</span>
+            <span class="badge">Node.js</span>
+            <span class="badge">Git</span>
+          </div>
+
+          <a class="link-projeto" href="https://github.com/Helloworld-fatec/valle-leads-system" target="_blank" rel="noopener">Ver projeto no GitHub</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ====================== OUTRAS INFORMAÇÕES ====================== -->
+    <section id="outras" class="card-secao">
+      <h2>Outras Informações</h2>
+
+      <h3>Formação acadêmica</h3>
+      <ul class="lista-info">
+        <li><span class="ico">🎓</span> <b>Desenvolvimento de Software Multiplataforma</b> &ndash; Fatec Jacareí (em andamento)</li>
+        <li><span class="ico">📒</span> <b>Ensino Médio</b> &ndash; concluído</li>
+      </ul>
+
+      <h3>Conhecimentos</h3>
+      <div class="tech-group">
+        <div>
+          <h4>Linguagens</h4>
+          <div class="tech">
+            <span class="badge">JavaScript</span>
+            <span class="badge">TypeScript</span>
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">SQL</span>
+          </div>
+        </div>
+        <div>
+          <h4>Ferramentas e frameworks</h4>
+          <div class="tech">
+            <span class="badge">React</span>
+            <span class="badge">Node.js</span>
+            <span class="badge">PostgreSQL</span>
+            <span class="badge">API REST</span>
+            <span class="badge">Git / GitHub</span>
+            <span class="badge">Figma</span>
+            <span class="badge">Astah</span>
+            <span class="badge">StarUML</span>
+            <span class="badge">Excel (básico)</span>
+          </div>
+        </div>
+      </div>
+
+      <h3>Hobbies</h3>
+      <ul class="lista-info">
+        <li><span class="ico">🎮</span> Jogar jogos online</li>
+        <li><span class="ico">🎧</span> Ouvir música enquanto programo</li>
+        <li><span class="ico">📚</span> Aprender novas tecnologias</li>
+        <li><span class="ico">🏋️</span> Ir para a academia</li>
+      </ul>
+    </section>
+
+    <!-- ====================== CONTATO ====================== -->
+    <section id="contato" class="card-secao">
+      <h2>Contato</h2>
+      <p class="texto-sobre">Você pode me encontrar em:</p>
+      <div class="contatos">
+        <a class="btn-contato" href="https://linkedin.com/in/pedro-jesus" target="_blank" rel="noopener">
+          <span class="ico">💼</span> LinkedIn
+        </a>
+        <a class="btn-contato" href="https://github.com/lJesusl-f" target="_blank" rel="noopener">
+          <span class="ico">💻</span> GitHub
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Pedro Enrique de Jesus Freitas &middot; 2025</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
