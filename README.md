@@ -2,7 +2,7 @@
 
 ### Aluno: Pedro Enrique de Jesus Freitas
 ### Curso: Desenvolvimento de Software Multiplataforma
-### Turma: 3º Semestre de 2025
+### Turma: 1º Semestre de 2025
 
 ---
 
